@@ -9,7 +9,7 @@ Steps on getting your app to work.
 ### Local
 Setup your development environment (pyenv or virtualenv recommended) and install the requirements.
 
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 Configure your app in `config_template.py` and save as `config.py`
 
