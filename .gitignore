@@ -1,0 +1,10 @@
+# EXTRANEOUS STUFF
+*.pyc
+__pycache__
+
+# SECRETS
+client_secret.json
+config.py
+
+# DEV IGNORES
+.python-version
