@@ -16,7 +16,7 @@ Configure your app in `config_template.py` and save as `config.py`
 
 Go to [Google's dev console](https://console.developer.google.com) and on the top left nav bar click the drop down and `Create Project`. Go through the flow to create you project, and select it from the drop down.
 
-Next, create your credentials and save the client_secret.json to the root of your project. An excerpt from [Google's dev portal](https://developers.google.com/gmail/api/quickstart/python) is below:
+Next, create your credentials and save the `client_secret.json` to the root of your project. An excerpt from [Google's dev portal](https://developers.google.com/gmail/api/quickstart/python) is below:
 ```
 Use this wizard to create or select a project in the Google Developers Console and automatically turn on the API. Click Continue, then Go to credentials.
 On the Add credentials to your project page, click the Cancel button.
