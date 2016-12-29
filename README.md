@@ -17,17 +17,11 @@ Configure your app in `config_template.py` and save as `config.py`
 
 Go to [Google's dev console](https://console.developer.google.com) and on the top left nav bar click the drop down and `Create Project`. Go through the flow to create you project, and select it from the drop down.
 
-Next, create your credentials and save the `client_secret.json` to the root of your project. An excerpt from [Google's dev portal](https://developers.google.com/gmail/api/quickstart/python) is below:
-```
-Use this wizard to create or select a project in the Google Developers Console and automatically turn on the API. Click Continue, then Go to credentials.
-On the Add credentials to your project page, click the Cancel button.
-At the top of the page, select the OAuth consent screen tab. Select an Email address, enter a Product name if not already set, and click the Save button.
-Select the Credentials tab, click the Create credentials button and select OAuth client ID.
-Select the application type Other, enter the name "Gmail API Quickstart", and click the Create button.
-Click OK to dismiss the resulting dialog.
-Click the file_download (Download JSON) button to the right of the client ID.
-Move this file to your working directory and rename it client_secret.json.
-```
+Click `API & Auth > Credentials` on the left sidebar menu, click the `OAuth consent screen` and fill out the info.
+
+Click `Credentials` Tab and add + select `OAuth 2.0 Client ID` credentials. Select `Web application` as the type, name the app anything you want. Set the javascript origins to `http://localhost:5000` and the Authorized redirect URIs to `http://localhost:5000/gCallback` for now. You can create a new set of credentials when you are ready to run on different environments.
+
+After you complete those steps and click `create`, you will have the option to download the json file of the client secrets. Save this file in your root directory as `client_secrets.json`
 
 ## Run the App
 
